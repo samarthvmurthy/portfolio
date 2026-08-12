@@ -91,13 +91,17 @@ a {
 }
 
 .title-symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
     font-family: "Consolas", "Menlo", "Monaco", monospace;
     font-weight: 700;
-    font-size: 1.15rem;
+    font-size: 1rem;
     background: linear-gradient(90deg, var(--accent), var(--accent-2));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #fff;
 }
 
 #links {
