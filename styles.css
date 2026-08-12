@@ -491,6 +491,7 @@ a {
     background: var(--bg-alt);
     border: 1px solid var(--border);
     border-radius: 14px;
+    overflow: hidden;
     padding: 2rem;
     opacity: 0;
     transform: translateY(24px);
