@@ -1,0 +1,236 @@
+{
+    "site": {
+        "title": "Samarth's Portfolio",
+        "navName": "Samarth's Profile"
+    },
+    "hero": {
+        "typingText": "Welcome to my corner of the web",
+        "name": "Samarth",
+        "tagline": "I turn ideas into scalable software, and coffee into code.",
+        "image": "assets/hero.jpeg",
+        "imageAlt": "Samarth"
+    },
+    "about": {
+        "bio": "I'm a Computer Science graduate student at Stevens Institute of Technology, currently sharpening my edge in algorithms and systems while chasing a lifelong curiosity for how software actually works under the hood. Before grad school, I spent time at Autoliv India as a Software Developer and Data Analyst, where I learned that clean data and clean code solve more problems than clever hacks ever will. Outside of coursework, I build things I'm genuinely curious about, like a voice agent that browses the web for you, a habit tracker to help people quit smoking, and a one-line-a-day journaling app, because the best way I know to learn a technology is to ship something real with it.",
+        "skillRows": [
+            {
+                "reverse": false,
+                "skills": [
+                    { "icon": "devicon-python-plain colored", "label": "Python" },
+                    { "icon": "devicon-typescript-plain colored", "label": "TypeScript" },
+                    { "icon": "devicon-javascript-plain colored", "label": "JavaScript" },
+                    { "icon": "devicon-kotlin-plain colored", "label": "Kotlin" },
+                    { "icon": "devicon-react-original colored", "label": "React" },
+                    { "icon": "devicon-react-original colored", "label": "React Native" },
+                    { "icon": "devicon-nextjs-plain", "label": "Next.js" },
+                    { "icon": "devicon-tailwindcss-plain colored", "label": "Tailwind" }
+                ]
+            },
+            {
+                "reverse": true,
+                "skills": [
+                    { "icon": "devicon-nodejs-plain colored", "label": "Node.js" },
+                    { "icon": "devicon-express-original", "label": "Express" },
+                    { "icon": "devicon-firebase-plain colored", "label": "Firebase" },
+                    { "icon": "devicon-mysql-plain colored", "label": "SQL" },
+                    { "icon": "devicon-html5-plain colored", "label": "HTML5" },
+                    { "icon": "devicon-css3-plain colored", "label": "CSS3" },
+                    { "icon": "devicon-docker-plain colored", "label": "Docker" },
+                    { "icon": "devicon-git-plain colored", "label": "Git" }
+                ]
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Friday Voice Agent",
+            "links": [
+                { "type": "source", "url": "https://github.com/samarthvmurthy/friday-voice-agent" }
+            ],
+            "description": [
+                "A hands-free AI assistant that listens for \"Hey Friday,\" takes a spoken command in plain English, and autonomously drives your web browser to complete it, navigating, clicking, and filling in forms on its own.",
+                "Routine browser tasks (searching, filling forms, checking sites) usually mean stopping to type and click through several steps. Friday lets you just say what you want done instead."
+            ],
+            "languages": [
+                { "name": "Python", "percent": 100, "color": "#3572A5" }
+            ],
+            "techIcons": [
+                { "type": "devicon", "class": "devicon-python-plain colored", "tooltip": "Python" },
+                { "type": "devicon", "class": "devicon-google-plain colored", "tooltip": "Google Gemini" },
+                { "type": "emoji", "value": "&#129282;", "tooltip": "LangChain" }
+            ]
+        },
+        {
+            "title": "Repo Cloner",
+            "links": [
+                { "type": "demo", "url": "https://samarthvmurthy.github.io/repo-cloner/" },
+                { "type": "source", "url": "https://github.com/samarthvmurthy/repo-cloner" }
+            ],
+            "description": [
+                "A desktop GUI app that clones any public GitHub repo and pushes it straight into your own account in one click, no terminal required.",
+                "Forking a repo you don't own commit history on, or quickly spinning up your own copy of a project to experiment with, normally means a handful of git commands. This turns it into a single click for non-terminal users too."
+            ],
+            "languages": [
+                { "name": "Python", "percent": 61.3, "color": "#3572A5" },
+                { "name": "HTML", "percent": 38.7, "color": "#e34c26" }
+            ],
+            "techIcons": [
+                { "type": "devicon", "class": "devicon-python-plain colored", "tooltip": "Python" },
+                { "type": "devicon", "class": "devicon-html5-plain colored", "tooltip": "HTML5" },
+                { "type": "devicon", "class": "devicon-githubactions-plain", "tooltip": "GitHub Actions" }
+            ]
+        },
+        {
+            "title": "Smoke Free",
+            "links": [
+                { "type": "demo", "url": "https://www.smokefreetimer.com" },
+                { "type": "source", "url": "https://github.com/samarthvmurthy/smoke-tracker" }
+            ],
+            "description": [
+                "A full-featured habit-tracking web app for people trying to quit smoking, logging cravings and smoke-free streaks with a data-driven view of progress.",
+                "Willpower alone is hard to sustain. Seeing concrete numbers (money saved, days smoke-free, streaks) gives quitting a measurable, motivating structure instead of a vague goal."
+            ],
+            "languages": [
+                { "name": "HTML", "percent": 99, "color": "#e34c26" },
+                { "name": "JavaScript", "percent": 1, "color": "#f1e05a" }
+            ],
+            "techIcons": [
+                { "type": "devicon", "class": "devicon-html5-plain colored", "tooltip": "HTML5" },
+                { "type": "devicon", "class": "devicon-javascript-plain colored", "tooltip": "JavaScript" },
+                { "type": "devicon", "class": "devicon-supabase-plain colored", "tooltip": "Supabase" },
+                { "type": "svg", "tooltip": "Progressive Web App", "content": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"></rect><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"></line>" }
+            ]
+        },
+        {
+            "title": "Feel",
+            "links": [
+                { "type": "demo", "url": "https://feel-sable-seven.vercel.app" },
+                { "type": "source", "url": "https://github.com/sumantwarhekar/Feel" }
+            ],
+            "description": [
+                "A mindful micro-journaling app: write one 280-character line about your day, tag it with a mood emoji, and build a streak. I contributed to this project.",
+                "Traditional journaling asks for too much time and effort to stick with. Capping entries at one line removes the friction so the habit actually survives past day three."
+            ],
+            "languages": [
+                { "name": "TypeScript", "percent": 70.6, "color": "#3178c6" },
+                { "name": "CSS", "percent": 29.2, "color": "#563d7c" },
+                { "name": "JavaScript", "percent": 0.2, "color": "#f1e05a" }
+            ],
+            "techIcons": [
+                { "type": "devicon", "class": "devicon-typescript-plain colored", "tooltip": "TypeScript" },
+                { "type": "devicon", "class": "devicon-react-original colored", "tooltip": "React" },
+                { "type": "devicon", "class": "devicon-nextjs-plain", "tooltip": "Next.js" },
+                { "type": "devicon", "class": "devicon-firebase-plain colored", "tooltip": "Firebase" },
+                { "type": "devicon", "class": "devicon-css3-plain colored", "tooltip": "CSS3" },
+                { "type": "devicon", "class": "devicon-framermotion-original", "tooltip": "Framer Motion" },
+                { "type": "devicon", "class": "devicon-vercel-original", "tooltip": "Vercel" }
+            ]
+        }
+    ],
+    "moreProjectsUrl": "https://github.com/samarthvmurthy",
+    "journey": [
+        {
+            "year": "2025",
+            "items": [
+                {
+                    "type": "education",
+                    "title": "Master's Degree, Computer Science",
+                    "details": "Stevens Institute of Technology &middot; Aug 2025 &ndash; Dec 2026",
+                    "leaves": [
+                        {
+                            "kind": "gpa-courses",
+                            "gpa": "GPA: 3.3 / 4",
+                            "courses": ["DBMS", "Operating Systems", "Algorithms", "Cybersecurity", "Agile Methods", "Systems Engg.", "TCP/IP Networking"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2024",
+            "items": [
+                {
+                    "type": "education",
+                    "title": "Bachelor of Engineering, Computer Science (Data Science)",
+                    "details": "MVJ College of Engineering, Bangalore &middot; Jun 2020 &ndash; May 2024",
+                    "leaves": [
+                        {
+                            "kind": "gpa-courses",
+                            "gpa": "GPA: 8.67 / 10",
+                            "courses": ["C", "Python", "R", "Advanced Java and J2EE", "Data Structures", "Algorithms", "DBMS", "Data Analytics", "Cloud Computing", "Data Mining and Warehousing", "Statistical Modelling", "Optimization Methods", "Software Testing", "IoT", "Web Development", "Big Data and Hadoop", "AI &amp; ML"]
+                        },
+                        {
+                            "kind": "project",
+                            "title": "Infra-Armor Chrome Extension",
+                            "text": "Led a team building a session-control, data-leakage-prevention, and threat-detection extension. Published Nov 2024 in the Intl. Journal of Research Publications and Reviews; presented at MVJ Project Expo 2024."
+                        }
+                    ]
+                },
+                {
+                    "type": "work",
+                    "title": "Software Developer Trainee",
+                    "details": "Autoliv India &middot; Bengaluru, Karnataka &middot; On-site &middot; Mar 2024 &ndash; Mar 2025",
+                    "leaves": [
+                        {
+                            "kind": "impact",
+                            "items": [
+                                "Built an IT Resource Manager web app (SharePoint) centralizing asset tracking across 1,000+ devices, designing the underlying database schema and data model",
+                                "Replaced a manual offboarding process for 100+ employees per quarter",
+                                "Maintained a production MS SQL Server database &mdash; SQL queries, stored procedures, and RESTful data retrieval logic"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "work",
+                    "title": "Data Analyst Intern",
+                    "details": "Autoliv India &middot; Bengaluru, Karnataka &middot; On-site &middot; Jan 2024 &ndash; Mar 2024",
+                    "leaves": [
+                        {
+                            "kind": "impact",
+                            "items": [
+                                "Replaced a fully manual reporting process for a 20-member finance team, analyzing complex financial datasets",
+                                "Designed Power BI dashboards for real-time performance metrics",
+                                "Built automated Python ETL pipelines feeding operational data into reporting dashboards"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "year": "2023",
+            "items": [
+                {
+                    "type": "work",
+                    "title": "Frontend Web Developer Intern",
+                    "details": "ISKCON &middot; Bengaluru, Karnataka &middot; Hybrid &middot; Jul 2023 &ndash; Sep 2023",
+                    "leaves": [
+                        {
+                            "kind": "impact",
+                            "items": [
+                                "Upgraded an existing Angular SPA with online attendance tracking and event/class registration, replacing a manual in-person process",
+                                "Drove a significant increase in site traffic",
+                                "Enhanced page navigation and UI/UX across the site with clean, maintainable front-end code"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "contact": {
+        "heading": "Got an idea? Let's make it real.",
+        "intro": "I'm always up for talking through a project, a role, or just a good technical problem. Reach out however's easiest for you.",
+        "email": "samarthvmurthy@gmail.com",
+        "location": "Hoboken, New Jersey, USA",
+        "timezone": "America/New_York",
+        "resume": "assets/resume.pdf",
+        "social": [
+            { "platform": "GitHub", "url": "https://github.com/samarthvmurthy" },
+            { "platform": "LinkedIn", "url": "https://linkedin.com/in/samarth-v-murthy" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/samarth_v_murthy" },
+            { "platform": "Facebook", "url": "https://www.facebook.com/samarthv.murthy" }
+        ]
+    }
+}

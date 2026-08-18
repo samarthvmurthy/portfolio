@@ -16,7 +16,7 @@
         <nav class="navigation">
             <div id="title">
                 <span class="title-symbol">&lt;/&gt;</span>
-                <p>Samarth's Profile</p>
+                <p id="nav-name"></p>
             </div>
             <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
             <div id="links">
@@ -31,470 +31,35 @@
             <div class="hero-blob" aria-hidden="true"></div>
             <div id="hero-intro">
                 <p class="hero-kicker">&#128075; <span id="typing-text"></span><span id="typing-cursor">|</span></p>
-                <h1 class="hero-greeting">Hi, I'm <span class="gradient-text">Samarth</span></h1>
-                <p class="hero-tagline">I turn ideas into scalable software, and coffee into code.</p>
+                <h1 class="hero-greeting">Hi, I'm <span class="gradient-text" id="hero-name"></span></h1>
+                <p class="hero-tagline" id="hero-tagline"></p>
                 <div id="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
             </div>
             <div id="hero-image">
-                <img id="hero" src="assets/hero.jpeg" alt="Samarth">
+                <img id="hero" src="" alt="">
             </div>
         </header>
 
         <section id="about" class="section reveal">
             <h2 class="section-title">About Me</h2>
             <div id="about-content">
-                <p class="section-text">
-                    I'm a Computer Science graduate student at Stevens Institute of Technology,
-                    currently sharpening my edge in algorithms and systems while chasing a lifelong
-                    curiosity for how software actually works under the hood. Before grad school, I
-                    spent time at Autoliv India as a Software Developer and Data Analyst, where I
-                    learned that clean data and clean code solve more problems than clever hacks
-                    ever will. Outside of coursework, I build things I'm genuinely curious about,
-                    like a voice agent that browses the web for you, a habit tracker to help people
-                    quit smoking, and a one-line-a-day journaling app, because the best way I know
-                    to learn a technology is to ship something real with it.
-                </p>
-                <div id="skills">
-                    <div class="skills-row">
-                        <div class="skills-track">
-                            <div class="skill-icon" title="Python">
-                                <i class="devicon-python-plain colored"></i>
-                                <span>Python</span>
-                            </div>
-                            <div class="skill-icon" title="TypeScript">
-                                <i class="devicon-typescript-plain colored"></i>
-                                <span>TypeScript</span>
-                            </div>
-                            <div class="skill-icon" title="JavaScript">
-                                <i class="devicon-javascript-plain colored"></i>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="skill-icon" title="Kotlin">
-                                <i class="devicon-kotlin-plain colored"></i>
-                                <span>Kotlin</span>
-                            </div>
-                            <div class="skill-icon" title="React">
-                                <i class="devicon-react-original colored"></i>
-                                <span>React</span>
-                            </div>
-                            <div class="skill-icon" title="React Native">
-                                <i class="devicon-react-original colored"></i>
-                                <span>React Native</span>
-                            </div>
-                            <div class="skill-icon" title="Next.js">
-                                <i class="devicon-nextjs-plain"></i>
-                                <span>Next.js</span>
-                            </div>
-                            <div class="skill-icon" title="Tailwind CSS">
-                                <i class="devicon-tailwindcss-plain colored"></i>
-                                <span>Tailwind</span>
-                            </div>
-                        </div>
-                        <div class="skills-track" aria-hidden="true">
-                            <div class="skill-icon" title="Python">
-                                <i class="devicon-python-plain colored"></i>
-                                <span>Python</span>
-                            </div>
-                            <div class="skill-icon" title="TypeScript">
-                                <i class="devicon-typescript-plain colored"></i>
-                                <span>TypeScript</span>
-                            </div>
-                            <div class="skill-icon" title="JavaScript">
-                                <i class="devicon-javascript-plain colored"></i>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="skill-icon" title="Kotlin">
-                                <i class="devicon-kotlin-plain colored"></i>
-                                <span>Kotlin</span>
-                            </div>
-                            <div class="skill-icon" title="React">
-                                <i class="devicon-react-original colored"></i>
-                                <span>React</span>
-                            </div>
-                            <div class="skill-icon" title="React Native">
-                                <i class="devicon-react-original colored"></i>
-                                <span>React Native</span>
-                            </div>
-                            <div class="skill-icon" title="Next.js">
-                                <i class="devicon-nextjs-plain"></i>
-                                <span>Next.js</span>
-                            </div>
-                            <div class="skill-icon" title="Tailwind CSS">
-                                <i class="devicon-tailwindcss-plain colored"></i>
-                                <span>Tailwind</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills-row skills-row-reverse">
-                        <div class="skills-track skills-track-reverse">
-                            <div class="skill-icon" title="Node.js">
-                                <i class="devicon-nodejs-plain colored"></i>
-                                <span>Node.js</span>
-                            </div>
-                            <div class="skill-icon" title="Express">
-                                <i class="devicon-express-original"></i>
-                                <span>Express</span>
-                            </div>
-                            <div class="skill-icon" title="Firebase">
-                                <i class="devicon-firebase-plain colored"></i>
-                                <span>Firebase</span>
-                            </div>
-                            <div class="skill-icon" title="SQL / MySQL">
-                                <i class="devicon-mysql-plain colored"></i>
-                                <span>SQL</span>
-                            </div>
-                            <div class="skill-icon" title="HTML5">
-                                <i class="devicon-html5-plain colored"></i>
-                                <span>HTML5</span>
-                            </div>
-                            <div class="skill-icon" title="CSS3">
-                                <i class="devicon-css3-plain colored"></i>
-                                <span>CSS3</span>
-                            </div>
-                            <div class="skill-icon" title="Docker">
-                                <i class="devicon-docker-plain colored"></i>
-                                <span>Docker</span>
-                            </div>
-                            <div class="skill-icon" title="Git">
-                                <i class="devicon-git-plain colored"></i>
-                                <span>Git</span>
-                            </div>
-                        </div>
-                        <div class="skills-track skills-track-reverse" aria-hidden="true">
-                            <div class="skill-icon" title="Node.js">
-                                <i class="devicon-nodejs-plain colored"></i>
-                                <span>Node.js</span>
-                            </div>
-                            <div class="skill-icon" title="Express">
-                                <i class="devicon-express-original"></i>
-                                <span>Express</span>
-                            </div>
-                            <div class="skill-icon" title="Firebase">
-                                <i class="devicon-firebase-plain colored"></i>
-                                <span>Firebase</span>
-                            </div>
-                            <div class="skill-icon" title="SQL / MySQL">
-                                <i class="devicon-mysql-plain colored"></i>
-                                <span>SQL</span>
-                            </div>
-                            <div class="skill-icon" title="HTML5">
-                                <i class="devicon-html5-plain colored"></i>
-                                <span>HTML5</span>
-                            </div>
-                            <div class="skill-icon" title="CSS3">
-                                <i class="devicon-css3-plain colored"></i>
-                                <span>CSS3</span>
-                            </div>
-                            <div class="skill-icon" title="Docker">
-                                <i class="devicon-docker-plain colored"></i>
-                                <span>Docker</span>
-                            </div>
-                            <div class="skill-icon" title="Git">
-                                <i class="devicon-git-plain colored"></i>
-                                <span>Git</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p class="section-text" id="about-bio"></p>
+                <div id="skills"></div>
             </div>
         </section>
 
         <section id="projects" class="section reveal">
             <h2 class="section-title">Projects</h2>
-            <div id="project-grid">
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <h3>Friday Voice Agent</h3>
-                        <div class="project-links">
-                        <a href="https://github.com/samarthvmurthy/friday-voice-agent" target="_blank" rel="noopener" class="icon-link" title="Source" aria-label="Source"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></a>
-                        </div>
-                    </div>
-                    <p>A hands-free AI assistant that listens for "Hey Friday," takes a spoken command in plain English, and autonomously drives your web browser to complete it, navigating, clicking, and filling in forms on its own.</p>
-                    <p>Routine browser tasks (searching, filling forms, checking sites) usually mean stopping to type and click through several steps. Friday lets you just say what you want done instead.</p>
-                    <div class="project-stack-row">
-                        <div class="project-langs">
-                            <div class="lang-bar">
-                                <span class="lang-segment" style="width: 100%; background: #3572A5;"></span>
-                            </div>
-                            <div class="lang-legend">
-                                <span><i style="background: #3572A5;"></i>Python 100%</span>
-                            </div>
-                        </div>
-                        <div class="project-icons">
-                            <span class="tech-icon" data-tooltip="Python"><i class="devicon-python-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="Google Gemini"><i class="devicon-google-plain colored"></i></span>
-                            <span class="tech-icon emoji-icon" data-tooltip="LangChain">&#129282;</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <h3>Repo Cloner</h3>
-                        <div class="project-links">
-                        <a href="https://samarthvmurthy.github.io/repo-cloner/" target="_blank" rel="noopener" class="icon-link" title="Live Demo" aria-label="Live Demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
-                        <a href="https://github.com/samarthvmurthy/repo-cloner" target="_blank" rel="noopener" class="icon-link" title="Source" aria-label="Source"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></a>
-                        </div>
-                    </div>
-                    <p>A desktop GUI app that clones any public GitHub repo and pushes it straight into your own account in one click, no terminal required.</p>
-                    <p>Forking a repo you don't own commit history on, or quickly spinning up your own copy of a project to experiment with, normally means a handful of git commands. This turns it into a single click for non-terminal users too.</p>
-                    <div class="project-stack-row">
-                        <div class="project-langs">
-                            <div class="lang-bar">
-                                <span class="lang-segment" style="width: 61.3%; background: #3572A5;"></span>
-                                <span class="lang-segment" style="width: 38.7%; background: #e34c26;"></span>
-                            </div>
-                            <div class="lang-legend">
-                                <span><i style="background: #3572A5;"></i>Python 61.3%</span>
-                                <span><i style="background: #e34c26;"></i>HTML 38.7%</span>
-                            </div>
-                        </div>
-                        <div class="project-icons">
-                            <span class="tech-icon" data-tooltip="Python"><i class="devicon-python-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="HTML5"><i class="devicon-html5-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="GitHub Actions"><i class="devicon-githubactions-plain"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <h3>Smoke Free</h3>
-                        <div class="project-links">
-                        <a href="https://www.smokefreetimer.com" target="_blank" rel="noopener" class="icon-link" title="Live Demo" aria-label="Live Demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
-                        <a href="https://github.com/samarthvmurthy/smoke-tracker" target="_blank" rel="noopener" class="icon-link" title="Source" aria-label="Source"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></a>
-                        </div>
-                    </div>
-                    <p>A full-featured habit-tracking web app for people trying to quit smoking, logging cravings and smoke-free streaks with a data-driven view of progress.</p>
-                    <p>Willpower alone is hard to sustain. Seeing concrete numbers (money saved, days smoke-free, streaks) gives quitting a measurable, motivating structure instead of a vague goal.</p>
-                    <div class="project-stack-row">
-                        <div class="project-langs">
-                            <div class="lang-bar">
-                                <span class="lang-segment" style="width: 99%; background: #e34c26;"></span>
-                                <span class="lang-segment" style="width: 1%; background: #f1e05a;"></span>
-                            </div>
-                            <div class="lang-legend">
-                                <span><i style="background: #e34c26;"></i>HTML 99%</span>
-                                <span><i style="background: #f1e05a;"></i>JavaScript 1%</span>
-                            </div>
-                        </div>
-                        <div class="project-icons">
-                            <span class="tech-icon" data-tooltip="HTML5"><i class="devicon-html5-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="JavaScript"><i class="devicon-javascript-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="Supabase"><i class="devicon-supabase-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="Progressive Web App">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <h3>Feel</h3>
-                        <div class="project-links">
-                        <a href="https://feel-sable-seven.vercel.app" target="_blank" rel="noopener" class="icon-link" title="Live Demo" aria-label="Live Demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
-                        <a href="https://github.com/sumantwarhekar/Feel" target="_blank" rel="noopener" class="icon-link" title="Source" aria-label="Source"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></a>
-                        </div>
-                    </div>
-                    <p>A mindful micro-journaling app: write one 280-character line about your day, tag it with a mood emoji, and build a streak. I contributed to this project.</p>
-                    <p>Traditional journaling asks for too much time and effort to stick with. Capping entries at one line removes the friction so the habit actually survives past day three.</p>
-                    <div class="project-stack-row">
-                        <div class="project-langs">
-                            <div class="lang-bar">
-                                <span class="lang-segment" style="width: 70.6%; background: #3178c6;"></span>
-                                <span class="lang-segment" style="width: 29.2%; background: #563d7c;"></span>
-                                <span class="lang-segment" style="width: 0.2%; background: #f1e05a;"></span>
-                            </div>
-                            <div class="lang-legend">
-                                <span><i style="background: #3178c6;"></i>TypeScript 70.6%</span>
-                                <span><i style="background: #563d7c;"></i>CSS 29.2%</span>
-                                <span><i style="background: #f1e05a;"></i>JavaScript 0.2%</span>
-                            </div>
-                        </div>
-                        <div class="project-icons">
-                            <span class="tech-icon" data-tooltip="TypeScript"><i class="devicon-typescript-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="React"><i class="devicon-react-original colored"></i></span>
-                            <span class="tech-icon" data-tooltip="Next.js"><i class="devicon-nextjs-plain"></i></span>
-                            <span class="tech-icon" data-tooltip="Firebase"><i class="devicon-firebase-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="CSS3"><i class="devicon-css3-plain colored"></i></span>
-                            <span class="tech-icon" data-tooltip="Framer Motion"><i class="devicon-framermotion-original"></i></span>
-                            <span class="tech-icon" data-tooltip="Vercel"><i class="devicon-vercel-original"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="more-projects">
-                <a href="https://github.com/samarthvmurthy" target="_blank" rel="noopener" class="btn btn-github">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-                    <span>See more on my GitHub</span>
-                    <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </a>
-            </div>
+            <div id="project-grid"></div>
+            <div id="more-projects"></div>
         </section>
 
         <section id="journey" class="section reveal">
             <h2 class="section-title">Journey</h2>
-            <div class="timeline">
-                <div class="year-divider"><span>2025</span></div>
-
-                <div class="timeline-item">
-                    <span class="timeline-icon" title="Education">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"></path><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"></path></svg>
-                    </span>
-                    <div class="tree-node">
-                        <svg class="tree-lines"></svg>
-                        <div class="node-main">
-                            <div class="main-node">Master's Degree, Computer Science</div>
-                        </div>
-                        <div class="node-leaves">
-                            <div class="leaf-node">
-                                <div class="child-label">Details</div>
-                                Stevens Institute of Technology &middot; Aug 2025 &ndash; Dec 2026
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">GPA &amp; Coursework</div>
-                                <span class="gpa-badge">GPA: 3.3 / 4</span>
-                                <div class="course-tags">
-                                    <span class="course-tag">DBMS</span>
-                                    <span class="course-tag">Operating Systems</span>
-                                    <span class="course-tag">Algorithms</span>
-                                    <span class="course-tag">Cybersecurity</span>
-                                    <span class="course-tag">Agile Methods</span>
-                                    <span class="course-tag">Systems Engg.</span>
-                                    <span class="course-tag">TCP/IP Networking</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="year-divider"><span>2024</span></div>
-
-                <div class="timeline-item">
-                    <span class="timeline-icon" title="Education">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"></path><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"></path></svg>
-                    </span>
-                    <div class="tree-node">
-                        <svg class="tree-lines"></svg>
-                        <div class="node-main">
-                            <div class="main-node">Bachelor of Engineering, Computer Science (Data Science)</div>
-                        </div>
-                        <div class="node-leaves">
-                            <div class="leaf-node">
-                                <div class="child-label">Details</div>
-                                MVJ College of Engineering, Bangalore &middot; Jun 2020 &ndash; May 2024
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">GPA &amp; Coursework</div>
-                                <span class="gpa-badge">GPA: 8.67 / 10</span>
-                                <div class="course-tags">
-                                    <span class="course-tag">C</span>
-                                    <span class="course-tag">Python</span>
-                                    <span class="course-tag">R</span>
-                                    <span class="course-tag">Advanced Java and J2EE</span>
-                                    <span class="course-tag">Data Structures</span>
-                                    <span class="course-tag">Algorithms</span>
-                                    <span class="course-tag">DBMS</span>
-                                    <span class="course-tag">Data Analytics</span>
-                                    <span class="course-tag">Cloud Computing</span>
-                                    <span class="course-tag">Data Mining and Warehousing</span>
-                                    <span class="course-tag">Statistical Modelling</span>
-                                    <span class="course-tag">Optimization Methods</span>
-                                    <span class="course-tag">Software Testing</span>
-                                    <span class="course-tag">IoT</span>
-                                    <span class="course-tag">Web Development</span>
-                                    <span class="course-tag">Big Data and Hadoop</span>
-                                    <span class="course-tag">AI &amp; ML</span>
-                                </div>
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">Project</div>
-                                <strong>Infra-Armor Chrome Extension</strong>
-                                Led a team building a session-control, data-leakage-prevention, and threat-detection extension. Published Nov 2024 in the Intl. Journal of Research Publications and Reviews; presented at MVJ Project Expo 2024.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-icon" title="Work">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-                    </span>
-                    <div class="tree-node">
-                        <svg class="tree-lines"></svg>
-                        <div class="node-main">
-                            <div class="main-node">Software Developer Trainee</div>
-                        </div>
-                        <div class="node-leaves">
-                            <div class="leaf-node">
-                                <div class="child-label">Details</div>
-                                Autoliv India &middot; Bengaluru, Karnataka &middot; On-site &middot; Mar 2024 &ndash; Mar 2025
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">Impact</div>
-                                <ul class="kpi-list">
-                                    <li>Built an IT Resource Manager web app (SharePoint) centralizing asset tracking across 1,000+ devices, designing the underlying database schema and data model</li>
-                                    <li>Replaced a manual offboarding process for 100+ employees per quarter</li>
-                                    <li>Maintained a production MS SQL Server database &mdash; SQL queries, stored procedures, and RESTful data retrieval logic</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <span class="timeline-icon" title="Work">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-                    </span>
-                    <div class="tree-node">
-                        <svg class="tree-lines"></svg>
-                        <div class="node-main">
-                            <div class="main-node">Data Analyst Intern</div>
-                        </div>
-                        <div class="node-leaves">
-                            <div class="leaf-node">
-                                <div class="child-label">Details</div>
-                                Autoliv India &middot; Bengaluru, Karnataka &middot; On-site &middot; Jan 2024 &ndash; Mar 2024
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">Impact</div>
-                                <ul class="kpi-list">
-                                    <li>Replaced a fully manual reporting process for a 20-member finance team, analyzing complex financial datasets</li>
-                                    <li>Designed Power BI dashboards for real-time performance metrics</li>
-                                    <li>Built automated Python ETL pipelines feeding operational data into reporting dashboards</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="year-divider"><span>2023</span></div>
-
-                <div class="timeline-item">
-                    <span class="timeline-icon" title="Work">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-                    </span>
-                    <div class="tree-node">
-                        <svg class="tree-lines"></svg>
-                        <div class="node-main">
-                            <div class="main-node">Frontend Web Developer Intern</div>
-                        </div>
-                        <div class="node-leaves">
-                            <div class="leaf-node">
-                                <div class="child-label">Details</div>
-                                ISKCON &middot; Bengaluru, Karnataka &middot; Hybrid &middot; Jul 2023 &ndash; Sep 2023
-                            </div>
-                            <div class="leaf-node">
-                                <div class="child-label">Impact</div>
-                                <ul class="kpi-list">
-                                    <li>Upgraded an existing Angular SPA with online attendance tracking and event/class registration, replacing a manual in-person process</li>
-                                    <li>Drove a significant increase in site traffic</li>
-                                    <li>Enhanced page navigation and UI/UX across the site with clean, maintainable front-end code</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="timeline" id="timeline"></div>
         </section>
 
         <section id="contact" class="section reveal">
@@ -518,18 +83,18 @@
                 </div>
 
                 <aside class="contact-info">
-                    <h3>Got an idea? Let's make it real.</h3>
-                    <p>I'm always up for talking through a project, a role, or just a good technical problem. Reach out however's easiest for you.</p>
+                    <h3 id="contact-heading"></h3>
+                    <p id="contact-intro"></p>
 
                     <div class="contact-details">
-                        <a href="mailto:samarthvmurthy@gmail.com" class="contact-detail" id="copy-email">
+                        <a href="" class="contact-detail" id="copy-email">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 7L2 7"></path></svg>
-                            <span>samarthvmurthy@gmail.com</span>
+                            <span id="contact-email-text"></span>
                             <span class="copy-hint">Click to copy</span>
                         </a>
                         <div class="contact-detail">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-7.58 8-13a8 8 0 1 0-16 0c0 5.42 8 13 8 13Z"></path><circle cx="12" cy="9" r="3"></circle></svg>
-                            <span>Hoboken, New Jersey, USA</span>
+                            <span id="contact-location"></span>
                         </div>
                         <div class="contact-detail">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
@@ -537,25 +102,12 @@
                         </div>
                     </div>
 
-                    <a href="assets/resume.pdf" download class="btn btn-secondary btn-resume">
+                    <a href="" download class="btn btn-secondary btn-resume" id="resume-link">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
                         Download Resume
                     </a>
 
-                    <div class="social-links">
-                        <a href="https://github.com/samarthvmurthy" target="_blank" rel="noopener" class="icon-link" title="GitHub" aria-label="GitHub">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-                        </a>
-                        <a href="https://linkedin.com/in/samarth-v-murthy" target="_blank" rel="noopener" class="icon-link" title="LinkedIn" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48z"/></svg>
-                        </a>
-                        <a href="https://www.instagram.com/samarth_v_murthy" target="_blank" rel="noopener" class="icon-link" title="Instagram" aria-label="Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                        </a>
-                        <a href="https://www.facebook.com/samarthv.murthy" target="_blank" rel="noopener" class="icon-link" title="Facebook" aria-label="Facebook">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12Z"/></svg>
-                        </a>
-                    </div>
+                    <div class="social-links" id="social-links"></div>
                 </aside>
 
                 <p class="contact-copyright">&copy; <span id="year"></span> Samarth. All rights reserved.</p>
