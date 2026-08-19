@@ -5,7 +5,7 @@
     },
     "hero": {
         "typingText": "Welcome to my corner of the web",
-        "name": "Samarth",
+        "name": "Samarth 1",
         "tagline": "I turn ideas into scalable software, and coffee into code.",
         "image": "assets/hero.jpeg",
         "imageAlt": "Samarth"
@@ -16,27 +16,75 @@
             {
                 "reverse": false,
                 "skills": [
-                    { "icon": "devicon-python-plain colored", "label": "Python" },
-                    { "icon": "devicon-typescript-plain colored", "label": "TypeScript" },
-                    { "icon": "devicon-javascript-plain colored", "label": "JavaScript" },
-                    { "icon": "devicon-kotlin-plain colored", "label": "Kotlin" },
-                    { "icon": "devicon-react-original colored", "label": "React" },
-                    { "icon": "devicon-react-original colored", "label": "React Native" },
-                    { "icon": "devicon-nextjs-plain", "label": "Next.js" },
-                    { "icon": "devicon-tailwindcss-plain colored", "label": "Tailwind" }
+                    {
+                        "icon": "devicon-python-plain colored",
+                        "label": "Python"
+                    },
+                    {
+                        "icon": "devicon-typescript-plain colored",
+                        "label": "TypeScript"
+                    },
+                    {
+                        "icon": "devicon-javascript-plain colored",
+                        "label": "JavaScript"
+                    },
+                    {
+                        "icon": "devicon-kotlin-plain colored",
+                        "label": "Kotlin"
+                    },
+                    {
+                        "icon": "devicon-react-original colored",
+                        "label": "React"
+                    },
+                    {
+                        "icon": "devicon-react-original colored",
+                        "label": "React Native"
+                    },
+                    {
+                        "icon": "devicon-nextjs-plain",
+                        "label": "Next.js"
+                    },
+                    {
+                        "icon": "devicon-tailwindcss-plain colored",
+                        "label": "Tailwind"
+                    }
                 ]
             },
             {
                 "reverse": true,
                 "skills": [
-                    { "icon": "devicon-nodejs-plain colored", "label": "Node.js" },
-                    { "icon": "devicon-express-original", "label": "Express" },
-                    { "icon": "devicon-firebase-plain colored", "label": "Firebase" },
-                    { "icon": "devicon-mysql-plain colored", "label": "SQL" },
-                    { "icon": "devicon-html5-plain colored", "label": "HTML5" },
-                    { "icon": "devicon-css3-plain colored", "label": "CSS3" },
-                    { "icon": "devicon-docker-plain colored", "label": "Docker" },
-                    { "icon": "devicon-git-plain colored", "label": "Git" }
+                    {
+                        "icon": "devicon-nodejs-plain colored",
+                        "label": "Node.js"
+                    },
+                    {
+                        "icon": "devicon-express-original",
+                        "label": "Express"
+                    },
+                    {
+                        "icon": "devicon-firebase-plain colored",
+                        "label": "Firebase"
+                    },
+                    {
+                        "icon": "devicon-mysql-plain colored",
+                        "label": "SQL"
+                    },
+                    {
+                        "icon": "devicon-html5-plain colored",
+                        "label": "HTML5"
+                    },
+                    {
+                        "icon": "devicon-css3-plain colored",
+                        "label": "CSS3"
+                    },
+                    {
+                        "icon": "devicon-docker-plain colored",
+                        "label": "Docker"
+                    },
+                    {
+                        "icon": "devicon-git-plain colored",
+                        "label": "Git"
+                    }
                 ]
             }
         ]
@@ -45,85 +93,206 @@
         {
             "title": "Friday Voice Agent",
             "links": [
-                { "type": "source", "url": "https://github.com/samarthvmurthy/friday-voice-agent" }
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/friday-voice-agent"
+                }
             ],
             "description": [
                 "A hands-free AI assistant that listens for \"Hey Friday,\" takes a spoken command in plain English, and autonomously drives your web browser to complete it, navigating, clicking, and filling in forms on its own.",
                 "Routine browser tasks (searching, filling forms, checking sites) usually mean stopping to type and click through several steps. Friday lets you just say what you want done instead."
             ],
             "languages": [
-                { "name": "Python", "percent": 100, "color": "#3572A5" }
+                {
+                    "name": "Python",
+                    "percent": 100,
+                    "color": "#3572A5"
+                }
             ],
             "techIcons": [
-                { "type": "devicon", "class": "devicon-python-plain colored", "tooltip": "Python" },
-                { "type": "devicon", "class": "devicon-google-plain colored", "tooltip": "Google Gemini" },
-                { "type": "emoji", "value": "&#129282;", "tooltip": "LangChain" }
+                {
+                    "type": "devicon",
+                    "class": "devicon-python-plain colored",
+                    "tooltip": "Python"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-google-plain colored",
+                    "tooltip": "Google Gemini"
+                },
+                {
+                    "type": "emoji",
+                    "value": "&#129282;",
+                    "tooltip": "LangChain"
+                }
             ]
         },
         {
             "title": "Repo Cloner",
             "links": [
-                { "type": "demo", "url": "https://samarthvmurthy.github.io/repo-cloner/" },
-                { "type": "source", "url": "https://github.com/samarthvmurthy/repo-cloner" }
+                {
+                    "type": "demo",
+                    "url": "https://samarthvmurthy.github.io/repo-cloner/"
+                },
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/repo-cloner"
+                }
             ],
             "description": [
                 "A desktop GUI app that clones any public GitHub repo and pushes it straight into your own account in one click, no terminal required.",
                 "Forking a repo you don't own commit history on, or quickly spinning up your own copy of a project to experiment with, normally means a handful of git commands. This turns it into a single click for non-terminal users too."
             ],
             "languages": [
-                { "name": "Python", "percent": 61.3, "color": "#3572A5" },
-                { "name": "HTML", "percent": 38.7, "color": "#e34c26" }
+                {
+                    "name": "Python",
+                    "percent": 61.3,
+                    "color": "#3572A5"
+                },
+                {
+                    "name": "HTML",
+                    "percent": 38.7,
+                    "color": "#e34c26"
+                }
             ],
             "techIcons": [
-                { "type": "devicon", "class": "devicon-python-plain colored", "tooltip": "Python" },
-                { "type": "devicon", "class": "devicon-html5-plain colored", "tooltip": "HTML5" },
-                { "type": "devicon", "class": "devicon-githubactions-plain", "tooltip": "GitHub Actions" }
+                {
+                    "type": "devicon",
+                    "class": "devicon-python-plain colored",
+                    "tooltip": "Python"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-html5-plain colored",
+                    "tooltip": "HTML5"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-githubactions-plain",
+                    "tooltip": "GitHub Actions"
+                }
             ]
         },
         {
             "title": "Smoke Free",
             "links": [
-                { "type": "demo", "url": "https://www.smokefreetimer.com" },
-                { "type": "source", "url": "https://github.com/samarthvmurthy/smoke-tracker" }
+                {
+                    "type": "demo",
+                    "url": "https://www.smokefreetimer.com"
+                },
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/smoke-tracker"
+                }
             ],
             "description": [
                 "A full-featured habit-tracking web app for people trying to quit smoking, logging cravings and smoke-free streaks with a data-driven view of progress.",
                 "Willpower alone is hard to sustain. Seeing concrete numbers (money saved, days smoke-free, streaks) gives quitting a measurable, motivating structure instead of a vague goal."
             ],
             "languages": [
-                { "name": "HTML", "percent": 99, "color": "#e34c26" },
-                { "name": "JavaScript", "percent": 1, "color": "#f1e05a" }
+                {
+                    "name": "HTML",
+                    "percent": 99,
+                    "color": "#e34c26"
+                },
+                {
+                    "name": "JavaScript",
+                    "percent": 1,
+                    "color": "#f1e05a"
+                }
             ],
             "techIcons": [
-                { "type": "devicon", "class": "devicon-html5-plain colored", "tooltip": "HTML5" },
-                { "type": "devicon", "class": "devicon-javascript-plain colored", "tooltip": "JavaScript" },
-                { "type": "devicon", "class": "devicon-supabase-plain colored", "tooltip": "Supabase" },
-                { "type": "svg", "tooltip": "Progressive Web App", "content": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"></rect><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"></line>" }
+                {
+                    "type": "devicon",
+                    "class": "devicon-html5-plain colored",
+                    "tooltip": "HTML5"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-javascript-plain colored",
+                    "tooltip": "JavaScript"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-supabase-plain colored",
+                    "tooltip": "Supabase"
+                },
+                {
+                    "type": "svg",
+                    "tooltip": "Progressive Web App",
+                    "content": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\"></rect><line x1=\"12\" y1=\"18\" x2=\"12.01\" y2=\"18\"></line>"
+                }
             ]
         },
         {
             "title": "Feel",
             "links": [
-                { "type": "demo", "url": "https://feel-sable-seven.vercel.app" },
-                { "type": "source", "url": "https://github.com/sumantwarhekar/Feel" }
+                {
+                    "type": "demo",
+                    "url": "https://feel-sable-seven.vercel.app"
+                },
+                {
+                    "type": "source",
+                    "url": "https://github.com/sumantwarhekar/Feel"
+                }
             ],
             "description": [
                 "A mindful micro-journaling app: write one 280-character line about your day, tag it with a mood emoji, and build a streak. I contributed to this project.",
                 "Traditional journaling asks for too much time and effort to stick with. Capping entries at one line removes the friction so the habit actually survives past day three."
             ],
             "languages": [
-                { "name": "TypeScript", "percent": 70.6, "color": "#3178c6" },
-                { "name": "CSS", "percent": 29.2, "color": "#563d7c" },
-                { "name": "JavaScript", "percent": 0.2, "color": "#f1e05a" }
+                {
+                    "name": "TypeScript",
+                    "percent": 70.6,
+                    "color": "#3178c6"
+                },
+                {
+                    "name": "CSS",
+                    "percent": 29.2,
+                    "color": "#563d7c"
+                },
+                {
+                    "name": "JavaScript",
+                    "percent": 0.2,
+                    "color": "#f1e05a"
+                }
             ],
             "techIcons": [
-                { "type": "devicon", "class": "devicon-typescript-plain colored", "tooltip": "TypeScript" },
-                { "type": "devicon", "class": "devicon-react-original colored", "tooltip": "React" },
-                { "type": "devicon", "class": "devicon-nextjs-plain", "tooltip": "Next.js" },
-                { "type": "devicon", "class": "devicon-firebase-plain colored", "tooltip": "Firebase" },
-                { "type": "devicon", "class": "devicon-css3-plain colored", "tooltip": "CSS3" },
-                { "type": "devicon", "class": "devicon-framermotion-original", "tooltip": "Framer Motion" },
-                { "type": "devicon", "class": "devicon-vercel-original", "tooltip": "Vercel" }
+                {
+                    "type": "devicon",
+                    "class": "devicon-typescript-plain colored",
+                    "tooltip": "TypeScript"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-react-original colored",
+                    "tooltip": "React"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-nextjs-plain",
+                    "tooltip": "Next.js"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-firebase-plain colored",
+                    "tooltip": "Firebase"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-css3-plain colored",
+                    "tooltip": "CSS3"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-framermotion-original",
+                    "tooltip": "Framer Motion"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-vercel-original",
+                    "tooltip": "Vercel"
+                }
             ]
         }
     ],
@@ -140,7 +309,15 @@
                         {
                             "kind": "gpa-courses",
                             "gpa": "GPA: 3.3 / 4",
-                            "courses": ["DBMS", "Operating Systems", "Algorithms", "Cybersecurity", "Agile Methods", "Systems Engg.", "TCP/IP Networking"]
+                            "courses": [
+                                "DBMS",
+                                "Operating Systems",
+                                "Algorithms",
+                                "Cybersecurity",
+                                "Agile Methods",
+                                "Systems Engg.",
+                                "TCP/IP Networking"
+                            ]
                         }
                     ]
                 }
@@ -157,7 +334,25 @@
                         {
                             "kind": "gpa-courses",
                             "gpa": "GPA: 8.67 / 10",
-                            "courses": ["C", "Python", "R", "Advanced Java and J2EE", "Data Structures", "Algorithms", "DBMS", "Data Analytics", "Cloud Computing", "Data Mining and Warehousing", "Statistical Modelling", "Optimization Methods", "Software Testing", "IoT", "Web Development", "Big Data and Hadoop", "AI &amp; ML"]
+                            "courses": [
+                                "C",
+                                "Python",
+                                "R",
+                                "Advanced Java and J2EE",
+                                "Data Structures",
+                                "Algorithms",
+                                "DBMS",
+                                "Data Analytics",
+                                "Cloud Computing",
+                                "Data Mining and Warehousing",
+                                "Statistical Modelling",
+                                "Optimization Methods",
+                                "Software Testing",
+                                "IoT",
+                                "Web Development",
+                                "Big Data and Hadoop",
+                                "AI &amp; ML"
+                            ]
                         },
                         {
                             "kind": "project",
@@ -227,10 +422,22 @@
         "timezone": "America/New_York",
         "resume": "assets/resume.pdf",
         "social": [
-            { "platform": "GitHub", "url": "https://github.com/samarthvmurthy" },
-            { "platform": "LinkedIn", "url": "https://linkedin.com/in/samarth-v-murthy" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/samarth_v_murthy" },
-            { "platform": "Facebook", "url": "https://www.facebook.com/samarthv.murthy" }
+            {
+                "platform": "GitHub",
+                "url": "https://github.com/samarthvmurthy"
+            },
+            {
+                "platform": "LinkedIn",
+                "url": "https://linkedin.com/in/samarth-v-murthy"
+            },
+            {
+                "platform": "Instagram",
+                "url": "https://www.instagram.com/samarth_v_murthy"
+            },
+            {
+                "platform": "Facebook",
+                "url": "https://www.facebook.com/samarthv.murthy"
+            }
         ]
     }
 }
