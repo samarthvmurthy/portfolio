@@ -5,7 +5,7 @@
     },
     "hero": {
         "typingText": "Welcome to my corner of the web",
-        "name": "Samarth 1",
+        "name": "Samarth",
         "tagline": "I turn ideas into scalable software, and coffee into code.",
         "image": "assets/hero.jpeg",
         "imageAlt": "Samarth"
