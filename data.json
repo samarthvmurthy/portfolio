@@ -338,6 +338,26 @@
                 }
             ],
             "techIcons": []
+        },
+        {
+            "title": "personal-tracker-app",
+            "links": [
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/personal-tracker-app"
+                }
+            ],
+            "description": [
+                "Personal Daily Life Tracker."
+            ],
+            "languages": [
+                {
+                    "name": "Kotlin",
+                    "percent": 100,
+                    "color": "#A97BFF"
+                }
+            ],
+            "techIcons": []
         }
     ],
     "moreProjectsUrl": "https://github.com/samarthvmurthy",
