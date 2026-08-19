@@ -128,52 +128,6 @@
             ]
         },
         {
-            "title": "Repo Cloner",
-            "links": [
-                {
-                    "type": "demo",
-                    "url": "https://samarthvmurthy.github.io/repo-cloner/"
-                },
-                {
-                    "type": "source",
-                    "url": "https://github.com/samarthvmurthy/repo-cloner"
-                }
-            ],
-            "description": [
-                "A desktop GUI app that clones any public GitHub repo and pushes it straight into your own account in one click, no terminal required.",
-                "Forking a repo you don't own commit history on, or quickly spinning up your own copy of a project to experiment with, normally means a handful of git commands. This turns it into a single click for non-terminal users too."
-            ],
-            "languages": [
-                {
-                    "name": "Python",
-                    "percent": 61.3,
-                    "color": "#3572A5"
-                },
-                {
-                    "name": "HTML",
-                    "percent": 38.7,
-                    "color": "#e34c26"
-                }
-            ],
-            "techIcons": [
-                {
-                    "type": "devicon",
-                    "class": "devicon-python-plain colored",
-                    "tooltip": "Python"
-                },
-                {
-                    "type": "devicon",
-                    "class": "devicon-html5-plain colored",
-                    "tooltip": "HTML5"
-                },
-                {
-                    "type": "devicon",
-                    "class": "devicon-githubactions-plain",
-                    "tooltip": "GitHub Actions"
-                }
-            ]
-        },
-        {
             "title": "Smoke Free",
             "links": [
                 {
@@ -294,6 +248,50 @@
                     "tooltip": "Vercel"
                 }
             ]
+        },
+        {
+            "title": "codelens",
+            "links": [
+                {
+                    "type": "demo",
+                    "url": "https://samarthvmurthy.github.io/codelens/"
+                },
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/codelens"
+                }
+            ],
+            "description": [
+                "Learn to read code like a senior — RAG-powered pattern, code-smell, and security analysis for any snippet, free by default."
+            ],
+            "languages": [
+                {
+                    "name": "TypeScript",
+                    "percent": 61,
+                    "color": "#3178c6"
+                },
+                {
+                    "name": "Python",
+                    "percent": 36.3,
+                    "color": "#3572A5"
+                },
+                {
+                    "name": "CSS",
+                    "percent": 1.6,
+                    "color": "#563d7c"
+                },
+                {
+                    "name": "Dockerfile",
+                    "percent": 0.7,
+                    "color": "#384d54"
+                },
+                {
+                    "name": "HTML",
+                    "percent": 0.5,
+                    "color": "#e34c26"
+                }
+            ],
+            "techIcons": []
         }
     ],
     "moreProjectsUrl": "https://github.com/samarthvmurthy",
