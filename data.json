@@ -250,11 +250,15 @@
             ]
         },
         {
-            "title": "repo-cloner",
+            "title": "Repo Cloner",
             "links": [
                 {
                     "type": "source",
                     "url": "https://github.com/samarthvmurthy/repo-cloner"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://samarthvmurthy.github.io/repo-cloner/"
                 }
             ],
             "description": [
@@ -272,7 +276,18 @@
                     "color": "#e34c26"
                 }
             ],
-            "techIcons": []
+            "techIcons": [
+                {
+                    "type": "devicon",
+                    "class": "devicon-python-plain colored",
+                    "tooltip": "Python"
+                },
+                {
+                    "type": "devicon",
+                    "class": "devicon-html5-plain colored",
+                    "tooltip": "HTML"
+                }
+            ]
         }
     ],
     "moreProjectsUrl": "https://github.com/samarthvmurthy",
