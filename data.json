@@ -253,12 +253,12 @@
             "title": "Repo Cloner",
             "links": [
                 {
-                    "type": "source",
-                    "url": "https://github.com/samarthvmurthy/repo-cloner"
-                },
-                {
                     "type": "demo",
                     "url": "https://samarthvmurthy.github.io/repo-cloner/"
+                },
+                {
+                    "type": "source",
+                    "url": "https://github.com/samarthvmurthy/repo-cloner"
                 }
             ],
             "description": [
